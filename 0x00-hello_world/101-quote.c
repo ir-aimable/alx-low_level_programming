@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- *Main entry point
- *Always return 1
+ * main - Entry point
+ * Return: Always 1 (Success)
 */
 int main(void)
 {
