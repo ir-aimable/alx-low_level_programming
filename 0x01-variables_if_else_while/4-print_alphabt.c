@@ -4,21 +4,23 @@
 
 /**
  * main - Entry point
- * return 0
-*/
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
-char low;
-char e = 'e';
-char q = 'q';
+	char low, e, q;
 
-for (low = 'a'; low <= 'z'; low++)
-{
-if (low != e && low != q)
-putchar(low);
-}
-putchar('\n');
-return (0);
-}
+	e = 'e';
+	q = 'q';
 
+	for (low = 'a'; low <= 'z'; low++)
+	{
+		if (low != e && low != q)
+			putchar(low);
+	}
+	putchar('\n');
+
+	return (0);
+}
